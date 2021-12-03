@@ -1,4 +1,5 @@
 use arrow::util::pretty::print_batches;
+use datafusion::datasource::datasource::TableProvider;
 use datafusion::execution::context::ExecutionContext;
 use std::sync::Arc;
 
